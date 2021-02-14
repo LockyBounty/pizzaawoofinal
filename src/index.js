@@ -2,16 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import './index.css';
 import App from './App';
-import App2 from './App2';
-import Test from './Test.tsx';
-import Test2 from './Test2.tsx';
-import CreditCardField from './Test.tsx';
-import Tester from './Test.tsx';
-import Card from './Card';
+
 import reportWebVitals from './reportWebVitals';
-import Tester2 from './Test';
-import Tester3 from './Test';
-import Tester4 from './Test';
+
 import Routes from './routes';
 
 

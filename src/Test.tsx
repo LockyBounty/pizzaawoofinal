@@ -60,12 +60,12 @@ const Tester3 = (props) => (
 
 const lol = "test"
 
-function Tester4() {
-  render(
-    <div>
-      {React.lazy(()=>import('./Card'))}
-    </div>
-  )
-}
+// function Tester4() {
+//   render(
+//     <div>
+//       {React.lazy(()=>import('./Card'))}
+//     </div>
+//   )
+// }
 
-export default Tester4;
+export default Test;

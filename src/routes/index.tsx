@@ -12,6 +12,7 @@ import Home from '../pages/Home'
 import About from '../pages/About'
 import Test from '../pages/Test'
 import Navbar from '../header/Navbar'
+import Footer from '../footer/Footer'
 
 
 function Routes() {
