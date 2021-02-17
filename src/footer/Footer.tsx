@@ -4,7 +4,7 @@ const Footer = () => (
   <div className="footer-main">
     <div className="footer-first">
       <ul>
-        <h3>À propos de Pizza&Awoo</h3>
+        <h3>À propos de Pizza Awoo</h3>
         <li>La marque</li>
         <li>emploi</li>
         <li>Franchise</li>
