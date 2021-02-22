@@ -31,15 +31,18 @@ const Footer = () => (
     <div className="footer-second">
       <div className="footer-social">
         <ul>
-          <li>facebook</li>
-          <li>youtube</li>
-          <li>instagram</li>
+          <li>fb</li>
+          <li>yt</li>
+          <li>ig</li>
         </ul>
       </div>
       <div className="footer-signature">
         <h5>@2021 Pizza Awoo</h5>
       </div>
-      <div className="footer-rules">-Conditions Générales -Cookies</div>
+      <div className="footer-rules">
+        <a href="/">Conditions générales </a>
+        <a href="/">Cookies</a>
+        </div>
     </div>
   </div>
 );

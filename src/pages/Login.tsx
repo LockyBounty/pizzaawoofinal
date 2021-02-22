@@ -1,14 +1,18 @@
 const Login = () => (   
 
-<div>
-    <div><a href="/">Retour</a></div>
-    <h2>CONNEXION</h2>
-    Pas de compte ? <a href="./Subscription">S'inscrire</a>
-    <form onSubmit={handleSubmit} method="post" name="login1">
-        <Email />
-        <Pass />
-        <button type="submit">Valider</button>
-    </form>
+<div className="loginMain">
+    <div className="return">
+        <a href="/">Retour</a>
+    </div>
+    <div className="loginInside">
+        <h2>CONNEXION</h2>
+        Pas de compte ? <a href="./Subscription">S'inscrire</a>
+        <form onSubmit={handleSubmit} method="post" name="login1">
+            <Email />
+            <Pass />
+            <button type="submit">Valider</button>
+        </form>
+    </div>
     
 </div>
 

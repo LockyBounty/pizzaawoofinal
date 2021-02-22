@@ -1,3 +1,5 @@
+import "../styles/landpage.scss";
+
 const LandPage = () => (
 
 <div className="landpage-main">

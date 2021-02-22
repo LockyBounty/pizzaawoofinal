@@ -75,6 +75,22 @@
       min-width: 30vh;
     }
   }
+  .footer-social{
+   
+    li {
+      margin-right: .5rem;
+    }
+    
+  }
+
+  .footer-rules {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    a {
+      color : gray;
+    }
+  }
  
   @media only screen and (max-width: 600px) {
     .footer-second {
