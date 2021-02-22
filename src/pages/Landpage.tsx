@@ -5,7 +5,7 @@ const LandPage = () => (
       <div className="landpage-main-top">
         <h3>logo</h3>
         <div className="landpage-main-top-right">
-          <div>connexion</div>
+          <div><a href="./Login">connexion</a></div>
           <div>ENG/FR</div>
         </div>
       </div>
