@@ -3,6 +3,7 @@ import React, {Component, useState, Fragment, createRef, useEffect} from 'react'
 import PropTypes from 'prop-types';
 import { renderIntoDocument } from 'react-dom/test-utils';
 import { render } from '@testing-library/react';
+import "../styles/test.scss";
 
 
 const Api = [
@@ -22,7 +23,7 @@ type TestProps = {
 }
 
 const Test = ({name, age, admin}: TestProps)=>(
-    <div>
+    <div className="testPage_main">
         <p>{name}</p>
         <p>{age}</p>
         <p>{typeof(admin)}</p>
