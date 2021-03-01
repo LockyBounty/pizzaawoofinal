@@ -37,7 +37,7 @@ function Routes() {
             exact path="/test" 
             render={(props)=> (<Test {...props} name="luke" age={30} admin={true}/>)}
           />
-          <Redirect to="/" />
+          <Redirect to="/404" />
         </Switch>
       </div>
       <Footer />
