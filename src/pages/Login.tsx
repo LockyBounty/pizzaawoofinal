@@ -1,5 +1,5 @@
 import { useState, useReducer } from 'react';
-
+import  {Recipe, Topping}  from '../utils/Recipe';
 
 function Login(){
 
@@ -26,8 +26,9 @@ function Login(){
         data.set('email', mail);
         data.set('pass', pass);
 
-
+    
         console.log(data.get("email"))
+        console.log(Object.fromEntries(data))
 
         
     }
@@ -66,6 +67,8 @@ function Login(){
                 </form>
             </div>
             <div>
+                {Topping}
+                
             </div>
             
         </div>

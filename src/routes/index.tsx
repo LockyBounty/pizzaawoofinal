@@ -29,7 +29,7 @@ function Routes() {
         <Switch>
           <Route exact path="/"  component={LandPage} />
           <Route exact path="/home"  component={Home} />
-          <Route exact path="/about" component={About} />
+          <Route activeClassName="active" exact path="/about" component={About} />
           <Route exact path="/404" component={Page404} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/subscription" component={Subscription} />
