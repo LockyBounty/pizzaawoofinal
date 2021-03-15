@@ -1,5 +1,5 @@
-
-const Pizzas = [ 
+    {
+        "pizza":
             {
                 "nom": "Margarita",
                 "recette":[
@@ -24,7 +24,7 @@ const Pizzas = [
                     "Sauce Tomate", "Oignon", 
                     "Boulettes de boeuf",
                     "Mozzarella","Basilic",
-                    "Sauce BBQ","Bacon"],
+                    "Sauce BBQ", "Bacon"],
                 "prix":11
             },
             {   "nom": "Pepperoni",
@@ -40,22 +40,4 @@ const Pizzas = [
                     "Mozzarella","Basilic"],
                 "prix":9
             }
-]
-
-
-const Topping = 
-[
-    "Anchois", "Boulettes de boeuf","Thym", "Pepperoni", "Poivron", "Parmagiano Reggiano","Olive"
-
-];
-
-const Drink = 
-[
-    "A&W root", "Coca Cola", "Coca Cola Zero", "Fanta", "Dr. Pepper", "Pepsi"
-]
-
-export {
-    Pizzas, 
-    Topping,
-    Drink
-};
+}

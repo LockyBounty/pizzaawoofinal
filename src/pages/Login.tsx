@@ -1,5 +1,6 @@
 import { useState, useReducer } from 'react';
-import  {Recipe, Topping}  from '../utils/Recipe';
+import  {Pizzas, Topping, Drink}  from '../utils/Recipe';
+import pizza from "../utils/Pizzas.json";
 
 function Login(){
 
@@ -67,7 +68,13 @@ function Login(){
                 </form>
             </div>
             <div>
-                {Topping}
+            {Pizzas.map((data, key) => {
+                return (
+                    <div key={key}>
+                    {data.nom}
+                    </div>
+                );
+                })}
                 
             </div>
             
