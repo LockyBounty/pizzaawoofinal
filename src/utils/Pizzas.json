@@ -1,5 +1,6 @@
     {
         "pizza":
+        [
             {
                 "nom": "Margarita",
                 "recette":[
@@ -40,4 +41,5 @@
                     "Mozzarella","Basilic"],
                 "prix":9
             }
+        ]
 }

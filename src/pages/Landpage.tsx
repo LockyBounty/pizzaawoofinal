@@ -1,4 +1,5 @@
 import "../styles/landpage.scss";
+import Listing from "./Listing"
 
 const LandPage = () => (
 
@@ -23,6 +24,8 @@ const LandPage = () => (
             <div>bouton commander</div>
           </div>
         </div>
+
+        <Listing />
       </div>
     </div>
   </div>

@@ -7,14 +7,7 @@
     src: url("../assets/fonts/Raleway-Regular.ttf") format("truetype");
   }
   
-  ul {
-      display : flex;
-      margin : 0;
-      padding : 0;
-    list-style-type: none;
-
-    font-family:"RalewayBig";
-  }
+  
   
  
   /*******************FOOTER********************/
@@ -24,7 +17,14 @@
     width: 100%;
     background-color: #231f20;
     // padding: 3vh 0;
-    
+    ul {
+      display : flex;
+      margin : 0;
+      padding : 0;
+    list-style-type: none;
+
+    font-family:"RalewayBig";
+    }
     .h1 {
         font-family : "RalewayBig";
     }
@@ -69,13 +69,22 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   
     color: gray;
 
     
   }
   .footer-social{
+    ul {
+      display : flex;
+      flex-direction: row;
+      margin : 0;
+      padding : 0;
+      list-style-type: none;
+
+      font-family:"RalewayBig";
+      }
    
     li {
       margin-right: .5rem;

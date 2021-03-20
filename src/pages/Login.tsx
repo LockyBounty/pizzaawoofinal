@@ -71,7 +71,7 @@ function Login(){
             {Pizzas.map((data, key) => {
                 return (
                     <div key={key}>
-                    {data.nom}
+                    {data.recette}
                     </div>
                 );
                 })}
