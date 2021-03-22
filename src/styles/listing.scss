@@ -7,7 +7,8 @@
 
 ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;
     padding : 0;
 }
@@ -17,26 +18,40 @@ ul {
     flex-direction: row;
     justify-content: center;
     width : 100%;
+    background-color: #f5f5f5;
+
+    .pizza_list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width : 80%;
+    }
+
+    .pizza_card {
+        display: flex;
+        flex-direction: column;
+        
+        min-width: 250px;
+        //width: 300px;
+        border: 1px solid brown;
+        border-radius: 5px;
+        //background-color: burlywood;
+        color: crimson;
+        margin: 15px;
+    }
 }
 
-.pizza_list {
+/******************* Modif Material UI ****************/
+.pizza_list_card {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width : 80%;
+    width: 300px;
+    max-width: 300px;
+    margin: 10px;
 }
 
+.pizza_list_chip {
+    margin : 1px 1px; 
 
-.pizza_card {
-    display: flex;
-    flex-direction: column;
-    
-    min-width: 250px;
-    //width: 300px;
-    border: 1px solid brown;
-    border-radius: 5px;
-    //background-color: burlywood;
-    color: crimson;
-    margin: 15px;
 }

@@ -10,7 +10,7 @@ const Pizzas = [
             {   "nom": "Quatre Fromages",
                 "recette":[
                     "Sauce Tomate", "Gorgonzola",
-                    "Mozzarella","Feta"],
+                    "Mozzarella","Chèvre","Feta"],
                 "prix":10
             },
             {   "nom": "Quatre Saisons",
