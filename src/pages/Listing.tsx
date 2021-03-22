@@ -24,12 +24,14 @@ const Listing = () =>
                 <Card 
                 className="pizza_list_card"
                 key={index}>
-                    <CardMedia
-                    // className={classes.media}
-                    // image="/static/images/cards/contemplative-reptile.jpg"
-                    // title="Contemplative Reptile"
-                    />
-                    <CardContent>
+                    <div>
+                        <img className="pizza_img"
+                        width="auto" height="200"
+                        src={pizza.image}
+                        alt={pizza.nom}
+                        />
+                    </div>
+                    <CardContent className="pizza_list_card_central_content">
 
                     
                         <h3>{pizza.nom}</h3>
@@ -40,7 +42,7 @@ const Listing = () =>
                                     <Chip 
                                     //variant="outlined" 
                                     className="pizza_list_chip"
-                                    color="primary"
+                                    //color="primary"
                                     size="small"
                                     label={ingredient}/>
                                 </li>
@@ -50,6 +52,7 @@ const Listing = () =>
                         <p>{pizza.prix} €</p>
 
                     </CardContent>
+                    
                     <div className="card_button_zone">
                         <Button 
                         className="card_button" 
