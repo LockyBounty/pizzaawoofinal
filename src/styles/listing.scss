@@ -48,10 +48,37 @@ ul {
     flex-wrap: wrap;
     width: 300px;
     max-width: 300px;
+
     margin: 10px;
+    padding: 0;
 }
 
 .pizza_list_chip {
     margin : 1px 1px; 
+
+}
+
+.card_button_zone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    height : 50px;
+    width: 100%;
+
+    .card_button {
+        height : 30px;
+        padding : 5px;
+        margin-right: 5px;
+        font-size: 11px;
+
+        .button_icon {
+            font-size: 15px;
+            padding: 3px;
+        }
+    }
+    
+
 
 }
