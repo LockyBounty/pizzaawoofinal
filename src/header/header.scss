@@ -1,0 +1,37 @@
+/*******************HEADER********************/
+.header_main_zone {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #231f20;
+    color: white;
+  
+  .header_first_zone {
+    display: flex;
+    flex-direction: row;
+  }
+  .header_second_zone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .header_menu_zone {
+    display: flex;
+  }
+  .header_menu_zone > ul {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+  }
+  .header_login_zone {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+  }
+  
+}
+
+.button_text_color {
+    color : white;
+}

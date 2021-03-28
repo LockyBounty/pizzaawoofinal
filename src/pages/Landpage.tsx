@@ -5,13 +5,7 @@ const LandPage = () => (
 
 <div className="landpage-main">
     <div className="landpage-section1">
-      <div className="landpage-main-top">
-        <h3>logo</h3>
-        <div className="landpage-main-top-right">
-          <div><a href="./Login">connexion</a></div>
-          <div>ENG/FR</div>
-        </div>
-      </div>
+      
       <div className="landpage-section1-second">
         <h3>Paiement en ligne facilité</h3>
         <div className="block-choice">

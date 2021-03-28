@@ -13,7 +13,7 @@ import '../assets/fonts/Raleway-SemiBold.ttf';
 import Home from '../pages/Home'
 import About from '../pages/About'
 import Test from '../pages/Test'
-import Navbar from '../header/Navbar'
+import Header from '../header/Header'
 import Footer from '../footer/Footer'
 import Page404 from '../pages/404'
 import LandPage from '../pages/Landpage'
@@ -24,7 +24,7 @@ import Subscription from '../pages/Subscription'
 function Routes() {
   return (
     <Router> {/*<-- */}
-      <Navbar />
+      <Header />
       <div className="contentAll">
         <Switch>
           <Route exact path="/"  component={LandPage} />
