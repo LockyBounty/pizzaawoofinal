@@ -5,7 +5,7 @@ import {BrowserRouter as
   Switch, 
   Redirect,
   Link} from "react-router-dom";
-import './index.css';
+import './main.scss';
 
 import '../assets/fonts/Raleway-Regular.ttf';
 import '../assets/fonts/Raleway-SemiBold.ttf';
@@ -19,6 +19,7 @@ import Page404 from '../pages/404'
 import LandPage from '../pages/Landpage'
 import Login from '../pages/Login'
 import Subscription from '../pages/Subscription'
+import {Custom} from '../pages/Custom'
 
 
 function Routes() {
@@ -33,6 +34,7 @@ function Routes() {
           <Route exact path="/404" component={Page404} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/subscription" component={Subscription} />
+          <Route exact path="/custom" component={Custom} />
           <Route 
             exact path="/test" 
             render={(props)=> (<Test {...props} name="luke" age={30} admin={true}/>)}

@@ -51,7 +51,7 @@ const Pizzas = [
 
 const Topping = 
 [
-    "Anchois", "Boulettes de boeuf","Thym", "Pepperoni", "Poivron", "Parmagiano Reggiano","Olive"
+    "Anchois", "Boulettes de boeuf","Basilic", "Pepperoni", "Poivron", "Parmagiano Reggiano","Olive"
 
 ];
 

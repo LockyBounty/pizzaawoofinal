@@ -12,7 +12,7 @@ const Page404 = () =>
         <h1>Awoo ? La page n'a pas été trouvée !</h1>
         
         <Button variant="contained" color="secondary">
-            Retour à l'accueil</Button>
+            Awoo à l'accueil</Button>
     </div>
 
 </div>
