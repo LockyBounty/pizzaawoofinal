@@ -25,7 +25,8 @@ ul {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        width : 80%;
+        margin : 5vh 0;  
+        max-width : 800px;
     }
 
     .pizza_card {
@@ -61,7 +62,7 @@ ul {
 
 .pizza_list_chip {
     margin : 1px 1px; 
-    color : darkgreen !important;
+    color : green !important;
 
 }
 

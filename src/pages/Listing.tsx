@@ -28,23 +28,23 @@ const Listing = () =>
                         <img className="pizza_img"
                         width="auto" height="200"
                         src={pizza.image}
-                        alt={pizza.nom}
+                        alt={pizza.name}
                         />
                     </div>
                     <CardContent className="pizza_list_card_central_content">
 
                     
-                        <h3>{pizza.nom}</h3>
+                        <h3>{pizza.name}</h3>
                         <p>
                             <ul>
-                                {pizza.recette.map((ingredient)=> 
+                                {pizza.recipe.map((ingredient)=> 
                                 <li>
                                     <Chip 
                                     //variant="outlined" 
                                     className="pizza_list_chip"
                                     //color="primary"
                                     size="small"
-                                    label={ingredient}/>
+                                    label={ingredient.name}/>
                                 </li>
                                 )}
                             </ul>
@@ -55,8 +55,8 @@ const Listing = () =>
                     <div className="card_button_zone">
                         <Chip 
                         className="pizza_price_chip"
-                        color="secondary"
-                        label={`${pizza.prix} €`} 
+                        color="primary"
+                        label={`${pizza.price} €`} 
                         />
                         <div>
                             <IconButton 
