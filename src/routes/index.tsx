@@ -19,6 +19,7 @@ import Page404 from '../pages/404'
 import LandPage from '../pages/Landpage'
 import Login from '../pages/Login'
 import Subscription from '../pages/Subscription'
+import ListingDetails from '../pages/ListingDetails'
 import {Custom} from '../pages/Custom'
 
 
@@ -34,6 +35,7 @@ function Routes() {
           <Route exact path="/404" component={Page404} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/subscription" component={Subscription} />
+          <Route path="/pizzas/:id" component={ListingDetails} />
           <Route exact path="/custom" component={Custom} />
           <Route 
             exact path="/test" 

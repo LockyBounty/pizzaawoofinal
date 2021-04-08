@@ -11,6 +11,9 @@ import RestaurantIcon from '@material-ui/icons/Restaurant';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 
+import {Link} from 'react-router-dom';
+
+
 import { Pizzas } from '../utils/Recipe'
 import "../styles/listing.scss"
 
@@ -59,11 +62,12 @@ const Listing = () =>
                         label={`${pizza.price} €`} 
                         />
                         <div>
-                            <IconButton 
-                            color="secondary">
-                                <ShoppingCartIcon /> 
-                            </IconButton>
-                            
+                            <Link to={`/pizzas/${pizza.id}`}>
+                                <IconButton 
+                                color="secondary">
+                                    <ShoppingCartIcon /> 
+                                </IconButton>
+                            </Link>
                             <IconButton 
                             aria-label="modify"
                             color="primary">
