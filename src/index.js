@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import './index.css';
 import App from './App';
+import { CookiesProvider } from 'react-cookie';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -9,8 +10,10 @@ import Routes from './routes';
 
 
 ReactDOM.render(
-  
-  <Routes /> /*va render l'index.tsx dans le dossier /routes*/
+  <CookiesProvider>
+  <Routes /> 
+  </CookiesProvider>
+  /*va render l'index.tsx dans le dossier /routes*/
   //< Tester4 />
   ,
   document.getElementById('root')

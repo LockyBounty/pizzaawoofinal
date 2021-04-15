@@ -38,10 +38,10 @@ const Listing = () =>
 
                     
                         <h3>{pizza.name}</h3>
-                        <p>
+                        <div>
                             <ul>
-                                {pizza.recipe.map((ingredient)=> 
-                                <li>
+                                {pizza.recipe.map((ingredient, i )=> 
+                                <li key={i}>
                                     <Chip 
                                     //variant="outlined" 
                                     className="pizza_list_chip"
@@ -51,7 +51,7 @@ const Listing = () =>
                                 </li>
                                 )}
                             </ul>
-                        </p>
+                        </div>
 
                     </CardContent>
                     
