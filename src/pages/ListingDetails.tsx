@@ -16,7 +16,7 @@ import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 
-
+import '../styles/global.scss';
 
   
   function ListingDetails() {
@@ -44,13 +44,13 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
               variant="outlined" 
               color="primary"
               >
-                <Avatar>
-                  <div>
+                
+                  <div className="product-avatar-box">
                     <img 
                     src="../assets/img/vegetable/cheese_01.png" 
                     />
                   </div>
-                </Avatar>
+                
                 {topping.name}
             
               </Button>
