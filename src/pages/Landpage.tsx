@@ -1,3 +1,5 @@
+//eslint-disable-line
+
 import "../styles/landpage.scss";
 import Listing from "./Listing"
 
