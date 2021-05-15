@@ -4,18 +4,11 @@ import "../styles/landpage.scss";
 import Listing from "./Listing"
 
 
-import { useCookies } from "react-cookie";
 
 function LandPage(){
 
-  const [cookies, setCookie, removeCookie] = useCookies(["user"]);
-
-  function handleSetCookie(){
-    setCookie("user", "test", {path: '/'});
-  }
-  function handleRemoveCookie() {
-    removeCookie("user");
-  }
+ 
+  
 return (
 <div className="landpage-main">
     <div className="landpage-section1">
@@ -30,17 +23,15 @@ return (
           <div className="block-choice-section2">
             <div>Input address + numero</div>
             <div>bouton commander</div>
+            <div>
+              
+            </div>
           </div>
         </div>
 
         <Listing />
       </div>
-      <div>
-      {cookies.user}
-      {console.log(cookies.user)}
-      <button onClick={handleSetCookie}>Set Cookie</button>
-      <button onClick={handleRemoveCookie}>Remove Cookie</button>
-      </div>
+      
     </div>
   </div>
 

@@ -15,6 +15,7 @@ import CardHeader from '@material-ui/core/CardHeader';
 import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import Paper from '@material-ui/core/Paper';
 
 import '../styles/global.scss';
 
@@ -38,11 +39,11 @@ import '../styles/global.scss';
           
           {
             Topping.map((topping, index)=>(
-              <Button 
+              <Paper
               key={index}
-              size="small"
-              variant="outlined" 
               color="primary"
+              elevation={0}
+              className="details-topping-zone-element"
               >
                 
                   <div className="product-avatar-box">
@@ -53,7 +54,7 @@ import '../styles/global.scss';
                 
                 {topping.name}
             
-              </Button>
+              </Paper>
             ))
           }
         </div>

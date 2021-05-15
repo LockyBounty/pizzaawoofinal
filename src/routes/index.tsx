@@ -1,5 +1,3 @@
- // eslint-disable-next-line 
-import React, { Suspense, lazy }  from 'react';
 import {BrowserRouter as 
   Router, 
   Route, 
