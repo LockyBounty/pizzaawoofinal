@@ -76,7 +76,7 @@ const Pizzas = [
 
 const Topping = 
 [
-    {id : 1,name:"Sans", checked:true}, 
+    {id : 1,name:"Sans plus", checked:true}, 
     {id : 2,name:"Anchois", checked:false}, 
     {id : 3,name:"Boulettes de boeuf", checked:false}, 
     {id : 4,name:"Olive", checked:false}, 
@@ -96,7 +96,8 @@ const Drink =
     {id : 5,name:"Coca Cola Zero", checked:false}, 
     {id : 6,name:"Fanta", checked:false}, 
     {id : 7,name:"Dr. Pepper", checked:false}, 
-    {id : 8,name:"Pepsi", checked:false}
+    {id : 8,name:"Pepsi", checked:false},
+    {id : 8,name:"Tropico", checked:false},
 ]
 
 export {

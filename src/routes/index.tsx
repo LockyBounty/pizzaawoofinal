@@ -1,10 +1,10 @@
-import React, { Suspense, lazy }  from 'react';
+
 import {BrowserRouter as 
   Router, 
   Route, 
   Switch, 
   Redirect,
-  Link} from "react-router-dom";
+  } from "react-router-dom";
 import './main.scss';
 
 import '../assets/fonts/Raleway-Regular.ttf';
